@@ -1,11 +1,3 @@
-// This is my button function
-
-function button(){
-    var button = document.querySelector('button');
-    button.onclick = function panda(){
-        alert("Pandas eat between 26 and 84 pounds of Bamboo per day.") ;
-    }
-}
 
 // This is my function for a user prompted question
 function question(){
@@ -18,6 +10,16 @@ function question(){
          {
                 document.write("<img src=Panda2.jpg>");
         }
+    }
+}
+
+
+// This is my button function
+
+function button(){
+    var button = document.querySelector('button');
+    button.onclick = function panda(){
+        alert("Pandas eat between 26 and 84 pounds of Bamboo per day.") ;
     }
 }
 
