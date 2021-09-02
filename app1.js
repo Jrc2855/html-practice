@@ -2,7 +2,6 @@
 
 function button(){
     var button = document.querySelector('button');
-    document.getElementById("panda.emoji").style.cursor = "pointer";
     button.onclick = function panda(){
         alert("Pandas eat between 26 and 84 pounds of Bamboo per day.") ;
     }
@@ -10,7 +9,6 @@ function button(){
 
 // This is my function for a user prompted question
 function question(){
-
     let userAnswer = prompt("Do you like pandas?");
     console.log(userAnswer);
     if(userAnswer.toLowerCase() == 'no'){
@@ -25,6 +23,6 @@ function question(){
 
 
 //This is my cursor change function
-function cursor() {
+function cursor(){
     document.getElementById("clickme", "pandaemoji").style.cursor = "pointer";
 }
