@@ -26,5 +26,5 @@ function button(){
 
 //This is my cursor change function
 function cursor(){
-    document.getElementById("clickme", "pandaemoji").style.cursor = "pointer";
+    document.getElementById("clickme", "button").style.cursor = "pointer";
 }
