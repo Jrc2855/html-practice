@@ -15,23 +15,19 @@ function question(){
 
 
 // This is my button function
-function button(){
-    var button = document.querySelector();
-    button.onclick = function panda(){
-        alert("Pandas eat between 26 and 84 pounds of Bamboo per day.") ;
+function panda();{
+        alert("Pandas eat between 26 and 84 pounds of Bamboo per day.");
     }
-}
 
 
 //This is my cursor change function
 function cursor(){
     document.getElementById("clickme").style.cursor = "pointer";
-    document.getElementById("emoji1").style.cursor = "pointer"
+    document.getElementById("emoji1").style.cursor = "pointer";
 }
 
 //This is my user input function
-function hungryPanda(correctAnswer);
-{
+function hungryPanda(correctAnswer){
     let play = prompt('Would you like to guess how much bamboo the panda ate? (yes or no)');
     console.log<(play)
     while (play.toLowerCase() == 'yes'){
