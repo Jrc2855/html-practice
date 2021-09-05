@@ -15,8 +15,7 @@ function questionPrompt(){
 
 
 // This is my button function
-function pandaAlert();{
-        onclick;
+function pandaAlert() {
         alert("Pandas eat between 26 and 84 pounds of Bamboo per day.");
     }
 
@@ -24,7 +23,7 @@ function pandaAlert();{
 //This is my cursor change function
 function cursorChange(){
     document.getElementById("clickme").style.cursor = "pointer";
-    document.getElementById("button").style.cursor = "pointer";
+    document.getElementById("pandaButton").style.cursor = "pointer";
 }
 
 //This is my user input function
