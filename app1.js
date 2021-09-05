@@ -1,6 +1,6 @@
 
 // This is my function for a user prompted question
-function question(){
+function questionPrompt(){
     let userAnswer = prompt("Do you like pandas?");
     console.log(userAnswer);
     if(userAnswer.toLowerCase() == 'no'){
@@ -15,15 +15,16 @@ function question(){
 
 
 // This is my button function
-function panda();{
+function pandaAlert();{
+        onclick;
         alert("Pandas eat between 26 and 84 pounds of Bamboo per day.");
     }
 
 
 //This is my cursor change function
-function cursor(){
+function cursorChange(){
     document.getElementById("clickme").style.cursor = "pointer";
-    document.getElementById("emoji1").style.cursor = "pointer";
+    document.getElementById("button").style.cursor = "pointer";
 }
 
 //This is my user input function
