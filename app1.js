@@ -26,25 +26,28 @@ function cursorChange(){
     document.getElementById("pandaButton").style.cursor = "pointer";
 }
 
-//This is my user input function
-function hungryPanda(correctAnswer){
-    let play = prompt('Would you like to guess how much bamboo the panda ate? (yes or no)');
-    console.log<(play)
-    while (play.toLowerCase() == 'yes'){
-        let tries = 3;
-        for(let p = 1; p <= tries; p++){
-            userAnswer = prompt("Pick a number between 1 and 90");
+function buttonCursor(){
+    document.getElementById("ratingButton").style.cursor = "pointer";
+}
 
-            while((userAnswer < 1) || (userAnswer > 90)){
-                userAnswer = prompt('How much did the panda eat?');
-            }
-            if(userAnswer == correctAnswer){
-                alert("That's correct!");
+//This is my user input function
+function hungryPanda(){
+    let play = prompt('Would you like to rate my page? (yes or no)');
+    console.log(play)
+    while (play.toLowerCase() == 'yes'){
+        let tries = 200;
+        for(let i = 1; i <=tries; i){
+            userAnswer = prompt("What would you rate it between 1 and 5 stars");
+            if(userAnswer == 5){
+                alert("Thank you very much!"); 
+                (tries - i);
                 break;
-            }   else(userAnswer == incorrectAnswer);{
-                alert("That's incorrect. Try again. You have " + (tries - p) + " tries left");
+            }
+            if(userAnswer < 5);{
+                alert("China does not accept anything less than a 5");
+                (tries - i);
             }
         }
+    return("Thank you for rating my page!")
     }
-
 }
